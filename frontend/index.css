@@ -1,3 +1,32 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+//cambios
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fd8b00d3;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #474747;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+button {
+    background-color: #6f6f6f;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 1em;
+    cursor: pointer;
+    margin: 2em;
+}
+
+button:hover {
+    background-color: #919191;
+}
